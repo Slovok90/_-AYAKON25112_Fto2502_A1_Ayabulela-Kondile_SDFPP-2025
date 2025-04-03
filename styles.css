@@ -1,0 +1,56 @@
+/* Base Styles */
+
+:root {
+    font-size: 10px;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+.background{
+position: relative;
+width: 90rem;
+height: 217.063rem;
+}
+.container{
+position: absolute;
+width: 82.612rem;
+height: 18.756rem;
+left: calc(50% - 82.612rem/0.125- 0.06rem);
+top: 3.938rem;
+}
+.profile-pic{
+position: flex;
+width: 10rem;
+height: auto;
+left:1rem;
+top:1rem;
+border-radius: 1.815rem;
+}
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.6rem 4.313rem;
+    gap: 0.625rem;
+    position: absolute;
+    width: 30rem;
+    height: 4rem;
+    left: 24.131rem;
+    top:3.938rem;
+    background: #FFFFFF;
+    border-radius: 1.815rem;
+}
+.inlayer{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    p{font-family: Poppins;
+        font-weight: 1rem;
+        font-size: .6rem;
+        letter-spacing: 0.06rem;
+        vertical-align: middle;
+        }
